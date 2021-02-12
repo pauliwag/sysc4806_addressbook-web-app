@@ -1,5 +1,23 @@
-All AddressBooks and BuddyInfos are listed at index.html (i.e., landing page) via Thymeleaf.  I initially save one AddressBook and populate it with a couple BuddyInfos.
+# AddressBook Web Application v0.5
+## SYSC 4806, Winter 2021 – Agile Design of SaaS (Software Engineering Lab)
+### By: Paul Roode
 
-Endpoints and path params for POSTing AddressBooks and POSTing/DELETEing BuffyInfos to/from AddressBooks can be seen in the RESTfulController class.
+---
 
--Paul
+***Travis CI builds***
+
+- https://travis-ci.com/github/pauliwag/sysc4806_addressbook-web-app/builds
+
+---
+
+***Heroku deploy***
+
+- https://addressbook-web-app.herokuapp.com/
+
+---
+
+***About***
+
+All AddressBooks and BuddyInfos are listed on the landing page (i.e., index.html) via Thymeleaf. There is a default AddressBook prepopulated with a couple BuddyInfos.
+
+Endpoints and path params for POSTing AddressBooks and POSTing/DELETEing BuffyInfos to/from AddressBooks can be found in the RESTfulController class.
