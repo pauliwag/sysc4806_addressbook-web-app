@@ -1,32 +1,28 @@
-package com.lab4;
+package com.lab5;
 
-import com.lab4.AddressBook;
-import com.lab4.BuddyInfo;
 import org.junit.Test;
-
-import javax.persistence.*;
-import java.util.List;
 
 import static org.junit.Assert.assertEquals;
 
 public class BuddyInfoTest {
 
-    /** Some assertions for lab 1 */
+    /**
+     * Some basic assertions.
+     */
     @Test
-    public void testGettersAndSetters() {
-        /*
-        BuddyInfo johnDoe = new BuddyInfo(1, new AddressBook(1), "John Doe", "101 John Doe Lane", "177-Doe-John");
+    public void testBuddyInfo() {
+        BuddyInfo johnDoe = new BuddyInfo("John Doe", "101 John Doe Lane", "177-Doe-John");
         assertEquals("John Doe", johnDoe.getName());
         assertEquals("101 John Doe Lane", johnDoe.getAddress());
         assertEquals("177-Doe-John", johnDoe.getPhoneNumber());
         String newAddress = "New John Doe Address";
         johnDoe.setAddress(newAddress);
         assertEquals(newAddress, johnDoe.getAddress());
-        */
-        return;
     }
 
-    /** Tests com.lab4.BuddyInfo persistence for lab 2 */
+    /**
+     * Tests persistence for lab 2.
+     */
     @Test
     public void testPersistence() {
         /*
@@ -61,7 +57,6 @@ public class BuddyInfoTest {
         em.close();
         emf.close();
         */
-        return;
     }
 
 }

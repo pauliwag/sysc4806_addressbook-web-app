@@ -1,4 +1,4 @@
-package com.lab4;
+package com.lab5;
 
 import javax.persistence.*;
 import java.util.ArrayList;
@@ -10,6 +10,7 @@ public class AddressBook {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
+
     @OneToMany(cascade = CascadeType.ALL)
     private List<BuddyInfo> buddies;
 
@@ -17,18 +18,22 @@ public class AddressBook {
         this.buddies = new ArrayList<>();
     }
 
-    public AddressBook(List<BuddyInfo> buddies) { this.buddies = buddies; }
+    public AddressBook(List<BuddyInfo> buddies) {
+        this.buddies = buddies;
+    }
 
     public List<BuddyInfo> getBuddies() {
         return buddies;
     }
-    public void setBuddies(ArrayList<BuddyInfo> buddies) {
+
+    public void setBuddies(List<BuddyInfo> buddies) {
         this.buddies = buddies;
     }
 
     public long getId() {
         return id;
     }
+
     public void setId(long id) {
         this.id = id;
     }

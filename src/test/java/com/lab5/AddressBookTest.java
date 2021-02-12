@@ -1,23 +1,21 @@
-package com.lab4;
+package com.lab5;
 
-import com.lab4.AddressBook;
-import com.lab4.BuddyInfo;
 import org.junit.Test;
 
-import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
 
 public class AddressBookTest {
 
-    /** Some assertions for lab 1 */
+    /**
+     * Some basic assertions.
+     */
     @Test
-    public void testBuddies() {
-        /*
-        AddressBook addressBook = new AddressBook(1);
-        ArrayList<BuddyInfo> buddies = new ArrayList<>();
-        BuddyInfo johnDoe = new BuddyInfo(1, addressBook, "John Doe", "101 John Doe Lane", "177-Doe-John");
-        BuddyInfo janeDoe = new BuddyInfo(2, addressBook, "Jane Doe", "202 Jane Doe Lane", "277-Doe-Jane");
+    public void testAddressBook() {
+        AddressBook addressBook = new AddressBook();
+        List<BuddyInfo> buddies = new ArrayList<>();
+        BuddyInfo johnDoe = new BuddyInfo("John Doe", "101 John Doe Lane", "177-Doe-John");
+        BuddyInfo janeDoe = new BuddyInfo("Jane Doe", "202 Jane Doe Lane", "277-Doe-Jane");
         buddies.add(johnDoe);
         buddies.add(janeDoe);
         addressBook.setBuddies(buddies);
@@ -25,11 +23,11 @@ public class AddressBookTest {
         assert addressBook.getBuddies().contains(janeDoe);
         buddies.remove(johnDoe);
         assert !addressBook.getBuddies().contains(johnDoe);
-        */
-        return;
     }
 
-    /** Tests com.lab4.AddressBook persistence for lab 2 */
+    /**
+     * Tests persistence for lab 2.
+     */
     @Test
     public void testPersistence() {
         /*
@@ -74,7 +72,6 @@ public class AddressBookTest {
         em.close();
         emf.close();
         */
-        return;
     }
 
 }
