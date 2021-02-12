@@ -1,18 +1,18 @@
 # AddressBook Web Application v0.5
-## SYSC 4806, Winter 2021 – Agile Design of SaaS (Software Engineering Lab)
+## SYSC 4806, Winter 2021 – Agile Development of SaaS (Software Engineering Lab)
 ### By: Paul Roode
 
 ---
 
 ***Travis CI builds***
 
-- https://travis-ci.com/github/pauliwag/sysc4806_addressbook-web-app/builds
+https://travis-ci.com/github/pauliwag/sysc4806_addressbook-web-app/builds
 
 ---
 
 ***Heroku deploy***
 
-- https://addressbook-web-app.herokuapp.com/
+https://addressbook-web-app.herokuapp.com/
 
 ---
 
