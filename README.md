@@ -6,7 +6,7 @@
 
 ***Travis CI builds***
 
-https://travis-ci.com/github/pauliwag/sysc4806_addressbook-web-app/builds
+https://travis-ci.com/github/pauliwag/sysc4806_addressbook-web-app_lab5/builds
 
 ---
 
